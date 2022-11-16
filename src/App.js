@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-
+// import ConditionalRendering from './Components/ConditionalRendering';
+// import Effect from './Components/Effect';
+// import Form from './Components/Form';
+// import { Funccc , ExtraFuncc} from './Components/Func';
+// import Map from './Components/Map';
+import ParentToUser from './Components/ParentToUser';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ExtraFuncc/>
+      <Funccc/> */}
+      {/* <Form/> */}
+      {/* <ConditionalRendering/> */}
+      {/* <Effect/> */}
+      {/* <Map/> */}
+      <ParentToUser/>
     </div>
   );
 }
